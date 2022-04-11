@@ -6,7 +6,7 @@ To start, run through the "Getting Started" steps below for either Java or Javas
 
 _This workshop assumes that you're using a Macbook. Steps will vary for Windows and Linux users._
 
-# Getting Started: Java
+## Getting Started: Java
 
 First, you will need:
 
@@ -18,12 +18,13 @@ First, you will need:
   - `brew install gradle`
 
 Clone this repository, then use `gradle` to build the project.
+
 ```sh
 $ cd path/to/cep-conference
 cep-conference$ ./gradlew build
 ```
 
-# Getting Started: Javascript
+## Getting Started: Javascript
 
 First, you will need:
 
@@ -33,8 +34,23 @@ First, you will need:
   - `brew install --cask visual-studio-code`
 
 Clone this repository, then use `npm` to build the project.
+
 ```sh
 $ cd path/to/cep-conference
 cep-conference$ npm install
 cep-conference$ npm test
 ```
+
+## Code Sharing when Pairing
+
+If you are using VSCode, you can try [Live Sharing](https://code.visualstudio.com/learn/collaboration/live-share).
+
+If you are using IntelliJ, you can try [Code With Me](https://plugins.jetbrains.com/plugin/14896-code-with-me)
+
+You can also use fast git handover with ([mob.sh](https://mob.sh/)) from commandline.
+
+```sh
+mob start --branch <unique name>
+```
+
+You will need _push access_ to the repository.
