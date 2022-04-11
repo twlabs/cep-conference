@@ -1,4 +1,4 @@
-class FeatureToggleService {
+class FeatureToggles {
     constructor(enabledFeatures) {
         this.enabledFeatures = enabledFeatures;
     };
@@ -8,4 +8,4 @@ class FeatureToggleService {
     }
 }
 
-module.exports = FeatureToggleService;
+module.exports = FeatureToggles;
