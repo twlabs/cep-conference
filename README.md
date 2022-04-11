@@ -10,7 +10,7 @@ _This workshop assumes that you're using a Macbook. Steps will vary for Windows 
 
 First, you will need:
 
-- Java 8 or later
+- Java 9 or later
   - `brew install openjdk`
 - A Java IDE (like IntelliJ)
   - `brew install --cask intellij-idea-ce`
@@ -20,7 +20,7 @@ First, you will need:
 Clone this repository, then use `gradle` to build the project.
 ```sh
 $ cd path/to/cep-conference
-cep-conference$ gradle build
+cep-conference$ ./gradlew build
 ```
 
 # Getting Started: Javascript
