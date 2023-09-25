@@ -12,13 +12,13 @@ repositories {
 sourceSets {
     main {
         kotlin {
-            srcDirs = ['kotlin/src']
+            srcDirs = ['./src']
         }
     }
 
     test {
         kotlin {
-            srcDirs = ['kotlin/test']
+            srcDirs = ['./test']
         }
     }
 }

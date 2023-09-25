@@ -20,7 +20,7 @@ First, you will need:
 Clone this repository, then use `gradle` to build the project.
 
 ```sh
-$ cd path/to/cep-conference
+$ cd path/to/cep-conference/kotlin
 cep-conference$ ./gradlew test
 ```
 
@@ -36,7 +36,7 @@ First, you will need:
 Clone this repository, then use `npm` to build the project.
 
 ```sh
-$ cd path/to/cep-conference
+$ cd path/to/cep-conference/javascript
 cep-conference$ npm install
 cep-conference$ npm test
 ```
