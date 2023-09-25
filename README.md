@@ -21,7 +21,7 @@ Clone this repository, then use `gradle` to build the project.
 
 ```sh
 $ cd path/to/cep-conference/kotlin
-cep-conference$ ./gradlew test
+kotlin ./gradlew test
 ```
 
 ## Getting Started: Javascript
@@ -37,8 +37,24 @@ Clone this repository, then use `npm` to build the project.
 
 ```sh
 $ cd path/to/cep-conference/javascript
-cep-conference$ npm install
-cep-conference$ npm test
+javascript npm install
+javascript npm test
+```
+
+## Getting Started: C#
+
+First, you will need:
+
+- dotnet 7 sdk
+  - `brew install dotnet`
+- A C# IDE (like Visual Studio Code)
+  - `brew install --cask visual-studio-code`
+
+Clone this repository, then use `dotnet` to build the project. You should see a single test failure.
+
+```sh
+$ cd path/to/cep-conference/csharp
+csharp$ dotnet test
 ```
 
 ## Code Sharing when Pairing

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CepConference", "CepConference\CepConference.csproj", "{91D2EF1C-7E78-4F07-8B31-CEFD69D552CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CepConference.Tests", "CepConference.Tests\CepConference.Tests.csproj", "{32F60FB9-9C14-4095-BCAA-4F5E3E3A35FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91D2EF1C-7E78-4F07-8B31-CEFD69D552CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91D2EF1C-7E78-4F07-8B31-CEFD69D552CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91D2EF1C-7E78-4F07-8B31-CEFD69D552CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91D2EF1C-7E78-4F07-8B31-CEFD69D552CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F60FB9-9C14-4095-BCAA-4F5E3E3A35FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F60FB9-9C14-4095-BCAA-4F5E3E3A35FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F60FB9-9C14-4095-BCAA-4F5E3E3A35FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F60FB9-9C14-4095-BCAA-4F5E3E3A35FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
